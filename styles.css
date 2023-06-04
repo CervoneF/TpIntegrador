@@ -52,6 +52,17 @@
     z-index: -1;
 }
 
+.tickets {
+    color: white;
+    text-decoration: none;
+}
+
+.tickets:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
 #confer {
     z-index: 2;
     position: absolute;

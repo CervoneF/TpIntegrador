@@ -105,11 +105,11 @@
                 <!--Cantidad y Categoria-->
                 <div class="col-md-6 col-sm-6 col-lg-6 p-1 mt-1">
                     <label class="form-label">Cantidad</label>
-                    <input type="text" id="inputCantidad" class="form-control" placeholder="Cantidad" required>
+                    <input type="text" id="CantidadTickets" class="form-control" placeholder="Cantidad" required>
                 </div>
                 <div class="col-md-6 col-sm-6 col-lg-6 p-1 mt-1">
                     <label class="form-label">Categoría</label>
-                    <select id="inputDescuento" class="form-select" required>
+                    <select id="Descuento" class="form-select" required>
                         <option selected value="0.2">Estudiante</option>
                         <option value="0.5">Trainee</option>
                         <option value="0.85">Junior</option>
@@ -122,10 +122,10 @@
 
                 <!--Botones-->
                 <div class="col-md-6 col-sm-6 col-lg-6 p-1">
-                    <button class="btn btn-success w-100" type="reset">Borrar</button>
+                    <button class="btn btn-success w-100" type="reset" onclick=borrar()>Borrar</button>
                 </div>
                 <div class="col-md-6 col-sm-6 col-lg-6 p-1">
-                    <button class="btn btn-success w-100" type="button" onclick=getValueFromInput()>Resumen</button>
+                    <button class="btn btn-success w-100" type="button" onclick=getValueFromResumen()> Resumen </button>
                 </div>
             </form>
 
